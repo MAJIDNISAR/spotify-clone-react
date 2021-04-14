@@ -1,0 +1,74 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  bottom: 0;
+  height: 65px;
+  width: 97%;
+  background-color: #282828;
+  padding: 20px;
+}
+
+.footer_left {
+  flex: 0.3;
+  display: flex;
+  align-items: center;
+  color: white;
+  max-width: 300px;
+  }
+.footer_center {
+  flex: 0.4;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color:white;
+  padding: 0 100px;
+  cursor: pointer;
+  transition: 200ms color ease-in;
+  max-width: 300px;
+
+}
+/* .footer_center:hover{
+  color:white;
+} */
+.footer_right {
+  flex: 0.3; 
+  padding: 0 100px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 300px;
+}
+.footer_albumLogo{
+  height: 60px;
+  width: 60px;
+  margin-right: 20px;
+  object-fit: contain;
+}
+.footer_green{
+  color: #1ed15e;
+}
+.nowplaying_track_link{
+  margin-left: 10px;
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: 16px;
+  color: #b3b3b3;
+   }
+.nowplaying_artist{
+  margin-left: 10px;
+  border: 0;
+  font-size: 12px;
+  vertical-align: baseline;
+}
+.footer_green:hover,
+.footer_icon:hover{
+  transition: 200ms ease-in-out;
+  transform: scale(1.2)!important;
+}
+.footer_right * .MuiSlider-root{ 
+  color: #1ed15e;
+}
