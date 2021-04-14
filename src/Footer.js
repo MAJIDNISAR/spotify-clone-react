@@ -13,7 +13,7 @@ function Footer () {
   return (
     <div className='footer'>
       <div className='footer_left'>
-        <img classname='footer_albumLogo' src='https://i.scdn.co/image/ab67616d00004851003a373709f4dd026c4b0918' alt='' />
+        <img className='footer_albumLogo' src='https://i.scdn.co/image/ab67616d00004851003a373709f4dd026c4b0918' alt='' />
         <div className='footer_songInfo'>
           <h4 className='nowplaying_track_link'> Where are you!
           </h4>

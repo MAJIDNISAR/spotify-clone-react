@@ -1,3 +1,15 @@
 [0412/111827.061:ERROR:filesystem_win.cc(148)] DeleteFile C:\Users\Hp\AppData\Local\Google\Chrome\User Data\Crashpad\reports\355a59b4-732c-4f02-9796-c72814e5be94.dmp: The process cannot access the file because it is being used by another process. (0x20)
 [0413/122512.668:ERROR:registration_protocol_win.cc(102)] CreateFile: The system cannot find the file specified. (0x2)
 [0413/125430.436:ERROR:filesystem_win.cc(148)] DeleteFile C:\Users\Hp\AppData\Local\Google\Chrome\User Data\Crashpad\reports\21431e16-5d83-4e0c-a616-e14fe6bfd07c.dmp: The process cannot access the file because it is being used by another process. (0x20)
+[0414/115440.074:ERROR:registration_protocol_win.cc(102)] CreateFile: The system cannot find the file specified. (0x2)
+[0414/115440.150:ERROR:registration_protocol_win.cc(102)] CreateFile: The system cannot find the file specified. (0x2)
+[0414/115440.167:ERROR:registration_protocol_win.cc(102)] CreateFile: The system cannot find the file specified. (0x2)
+[0414/115440.388:ERROR:registration_protocol_win.cc(102)] CreateFile: The system cannot find the file specified. (0x2)
+[0414/115440.395:ERROR:registration_protocol_win.cc(102)] CreateFile: The system cannot find the file specified. (0x2)
+[0414/115441.290:ERROR:registration_protocol_win.cc(102)] CreateFile: The system cannot find the file specified. (0x2)
+[0414/115441.317:ERROR:registration_protocol_win.cc(102)] CreateFile: The system cannot find the file specified. (0x2)
+[0414/115441.332:ERROR:registration_protocol_win.cc(102)] CreateFile: The system cannot find the file specified. (0x2)
+[0414/115441.343:ERROR:registration_protocol_win.cc(102)] CreateFile: The system cannot find the file specified. (0x2)
+[0414/115441.398:ERROR:registration_protocol_win.cc(102)] CreateFile: The system cannot find the file specified. (0x2)
+[0414/115441.697:ERROR:crashpad_client_win.cc(808)] not connected
+[0414/115441.697:ERROR:crashpad_client_win.cc(808)] not connected

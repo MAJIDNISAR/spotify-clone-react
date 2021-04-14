@@ -42,6 +42,17 @@ function App () {
         })
         // console.log(playlists.items)
       })
+      spotify.getPlaylist('37i9dQZEVXcK7WHPmCrT74').then(discover_weekly => {
+        console.log('============discove weekly=====')
+        console.table(discover_weekly)
+        console.log(discover_weekly.images[0].url)
+        // console.log(discover_weekly.images[0])
+        console.log('============discover=====')
+        dispatch({
+          type: 'SET_DISCOVER_WEEKLY',
+          discover_weekly: discover_weekly
+        })
+      })
     }
     // the function /code to run here
     // if we need it to run only once at the loading use [] for input

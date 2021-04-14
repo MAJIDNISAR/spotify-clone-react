@@ -5,7 +5,7 @@ export const initialState = {
   item: null,
   spotify: null,
   // token: null // for debuging purpose we are using the bllow line to avoid login every time
-  token: 'BQCmCbCSsBfc3UBTpkRHIB9xIBSQlFHdFrf1iwP8xRyQh2C2Zop8sqrRFHarsVmh1YBTvSYzLL0b0rR0VbTbFtaDTgiFNo3Gd9JGLFoAEexHa76KFhO4NU-tUOYFd1nanBuQ4R0_UCcn9eqLF0AGJsitBRKM'
+  // token: 'BQCmCbCSsBfc3UBTpkRHIB9xIBSQlFHdFrf1iwP8xRyQh2C2Zop8sqrRFHarsVmh1YBTvSYzLL0b0rR0VbTbFtaDTgiFNo3Gd9JGLFoAEexHa76KFhO4NU-tUOYFd1nanBuQ4R0_UCcn9eqLF0AGJsitBRKM'
 }
 const reducer = (state, action) => {
   // console.log('===============state Listening reducer===============')
@@ -33,6 +33,11 @@ const reducer = (state, action) => {
       return {
         ...state,
         playlists: action.playlists
+      }
+    case 'SET_DISCOVER_WEEKLY':
+      return {
+        ...state,
+        discover_weekly: action.discover_weekly
       }
     default:
       return state
