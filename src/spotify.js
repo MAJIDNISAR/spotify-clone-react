@@ -1,9 +1,21 @@
 import dotenv from 'dotenv'
 dotenv.config()
+let redirectURI
 // import env from "react-dotenv";
 // console.log(process.env.REACT_APP_Client_ID)
+switch (process.env.NODE_ENV) {
+  case 'web':
+    redirectURI = process.env.REACT_APP_WEB_REDIRECT_URL
+    break
+  case 'local':
+    redirectURI = redirectURI = 'http://localhost:3000/'
+    break
+  default:
+    redirectURI = 'http://localhost:3000/'
+    break
+}
 export const authEndPoint = 'https://accounts.spotify.com/authorize'
-const redirectURI = 'http://localhost:3000/'
+// const redirectURI = 'http://localhost:3000/'
 // console.log(process.env.REACT_APP_ClientID)
 const ClientID = process.env.REACT_APP_Client_ID
 // console.log(ClientID)
