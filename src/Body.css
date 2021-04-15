@@ -3,7 +3,11 @@
   height: 100vh;
   color: white;
   padding: 30px;
+  overflow-y: overlay;
   background: linear-gradient(rgb(91,87,115),rgba(0,0,0,1));
+}
+.body::-webkit-scrollbar{
+  display: none;
 }
 .body_info{
   display: flex;
@@ -39,4 +43,9 @@ margin-right: 20px;
 }
 .body_shuffle:hover{
   transition: 100ms transform ease-in;
-  transform: scale(1.2);}
+  transform: scale(1.2);
+}
+.body_songs{
+  margin: 20px -30px;
+
+}

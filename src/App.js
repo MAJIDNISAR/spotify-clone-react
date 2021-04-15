@@ -32,7 +32,7 @@ function App () {
           type: 'SET_USER',
           user: user
         })
-        // console.log('🙋User=========================================', user)
+        console.log('🙋User=========================================', user)
         // console.log('🎵PlayLists====================================', spotify.playlists())
       })
       spotify.getUserPlaylists().then((playlists) => {
